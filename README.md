@@ -10,6 +10,8 @@ Assumptions and Results can be found in the Notebook inside "01-hyperparameters"
 
 I recorded 3 images of myself, one for each required gesture and created an annotation file containing bounding boxes of all hands. 
 
+To get the bounding boxes i drew boxes around the hands in paint, read off the corner coordinates and normalized them with the total image resolution
+
 "gesture dataset" contains all images and annotations of me and the tutors, i ordered them in the same way as the hagrid dataset so i could use our already existing code for loading annotations
 
 "classifier_training.ipynb" is the notebook i used to train a model for the required gestures
