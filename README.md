@@ -3,7 +3,18 @@
 
 # Task 1:
 
-Assumptions and Results can be found in the Notebook
+Assumptions and Results can be found in the Notebook inside "01-hyperparameters"
+
+
+# Task 2:
+
+I recorded 3 images of myself, one for each required gesture and created an annotation file containing bounding boxes of all hands. 
+
+"gesture dataset" contains all images and annotations of me and the tutors, i ordered them in the same way as the hagrid dataset so i could use our already existing code for loading annotations
+
+"classifier_training.ipynb" is the notebook i used to train a model for the required gestures
+
+"matrix.ipynb" is the notebook i used to load the tutors and my data and create a confusion matrix of the prediction results
 
 # Task 3:
 
